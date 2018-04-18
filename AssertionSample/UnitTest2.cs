@@ -21,6 +21,7 @@ namespace AssertionSample
             var actual = calculator.Divide(5, 0);
 
             //how to assert expected exception?
+            //never use try/catch in unit test
         }
     }
 
